@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 .venv/
+=======
+.venv/
+>>>>>>> d08510b14e0bf10fe39d8ae5d1f944daa43915be
