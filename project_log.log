@@ -1,0 +1,113 @@
+2025-01-26 14:34:46.155 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-01-26 14:34:46.156 | INFO     | __main__:<module>:65 - STATS - Ready for work.
+2025-01-26 14:34:46.156 | INFO     | __main__:main:49 - Starting MAIN function.
+2025-01-26 14:34:46.156 | INFO     | __main__:main:52 - Scores: [3.5, 4.0, 4.8, 2.9, 3.7, 4.3, 3.8]
+2025-01-26 14:34:46.156 | INFO     | __main__:main:53 - Minimum: 2.90
+2025-01-26 14:34:46.156 | INFO     | __main__:main:54 - Maximum: 4.80
+2025-01-26 14:34:46.156 | INFO     | __main__:main:55 - Mean: 3.86
+2025-01-26 14:34:46.156 | INFO     | __main__:main:56 - Standard Deviation: 0.60
+2025-01-26 14:34:46.157 | INFO     | __main__:main:58 - Exiting MAIN function.
+2025-01-26 14:34:46.157 | INFO     | __main__:<module>:73 - STATS - Execution complete.
+2025-01-26 14:35:14.624 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-01-26 14:35:14.624 | INFO     | __main__:<module>:53 - CHARTS - Ready for work.
+2025-01-26 14:35:14.625 | INFO     | __main__:main:44 - Starting make_chart main function.
+2025-01-26 14:35:14.666 | INFO     | __main__:create_penguin_chart:27 - Loaded penguins dataset successfully.
+2025-01-26 14:35:23.588 | INFO     | __main__:main:46 - Exiting make_chart main function.
+2025-01-26 14:35:23.588 | INFO     | __main__:<module>:55 - CHARTS - Execution complete.
+2025-01-26 14:38:58.447 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-01-26 14:38:58.447 | INFO     | __main__:<module>:60 - CHARTS - Ready for work.
+2025-01-26 14:38:58.447 | INFO     | __main__:main:50 - Starting make_chart main function.
+2025-01-26 14:38:58.453 | INFO     | __main__:create_penguin_chart:28 - Loaded penguins dataset successfully.
+2025-01-26 14:38:58.557 | INFO     | __main__:create_penguin_chart:36 - Close the chart window to continue or exit the script.
+2025-01-26 14:38:58.557 | INFO     | __main__:create_penguin_chart:37 - If you want to exit the script at any time, press Ctrl+C in the terminal.
+2025-01-26 14:44:03.821 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-01-26 14:44:03.821 | INFO     | __main__:<module>:65 - CHARTS - Ready for work.
+2025-01-26 14:44:03.821 | INFO     | __main__:main:50 - Starting main function.
+2025-01-26 14:44:03.827 | INFO     | __main__:create_penguin_chart:28 - Loaded penguins dataset successfully.
+2025-01-26 14:44:03.929 | INFO     | __main__:create_penguin_chart:36 - NOTE: Close the chart window to continue or exit the script.
+2025-01-26 14:44:03.929 | INFO     | __main__:create_penguin_chart:37 - NOTE: To exit, hit Ctrl c in the terminal.
+2025-01-26 14:46:28.441 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-01-26 14:46:28.441 | INFO     | __main__:<module>:65 - CHARTS - Ready for work.
+2025-01-26 14:46:28.441 | INFO     | __main__:main:50 - Starting main function.
+2025-01-26 14:46:28.446 | INFO     | __main__:create_penguin_chart:28 - Loaded penguins dataset successfully.
+2025-01-26 14:46:28.550 | INFO     | __main__:create_penguin_chart:36 - NOTE: Close the chart window to continue or exit the script.
+2025-01-26 14:46:28.551 | INFO     | __main__:create_penguin_chart:37 - NOTE: To exit, hit Ctrl c in the terminal.
+2025-01-26 14:46:28.558 | INFO     | __main__:main:58 - Exiting main function.
+2025-01-26 14:46:28.558 | INFO     | __main__:<module>:67 - CHARTS - Execution complete.
+2025-01-26 14:46:58.711 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-01-26 14:46:58.712 | INFO     | __main__:<module>:64 - CHARTS - Ready for work.
+2025-01-26 14:46:58.712 | INFO     | __main__:main:49 - Starting main function.
+2025-01-26 14:46:58.717 | INFO     | __main__:create_penguin_chart:28 - Loaded penguins dataset successfully.
+2025-01-26 14:46:58.818 | INFO     | __main__:create_penguin_chart:36 - NOTE: Close the chart window to continue and exit the script.
+2025-01-26 14:47:01.917 | INFO     | __main__:main:57 - Exiting main function.
+2025-01-26 14:47:01.918 | INFO     | __main__:<module>:66 - CHARTS - Execution complete.
+2025-01-26 14:50:22.730 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-01-26 14:50:22.731 | INFO     | __main__:<module>:51 - CHARTS - Ready for work.
+2025-01-26 14:50:22.731 | INFO     | __main__:main:25 - Starting main function.
+2025-01-26 14:50:22.737 | INFO     | __main__:main:30 - Loaded penguins dataset successfully.
+2025-01-26 14:50:22.838 | INFO     | __main__:main:38 - NOTE: Close the chart window to continue and exit the script.
+2025-01-26 14:50:25.058 | INFO     | __main__:main:40 - Exiting main function.
+2025-01-26 14:50:25.058 | INFO     | __main__:<module>:53 - CHARTS - Execution complete.
+2025-01-26 15:08:03.510 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-01-26 15:08:03.510 | INFO     | __main__:<module>:70 - HELLO - Ready for work.
+2025-01-26 15:08:03.510 | INFO     | __main__:main:44 - Starting main function.
+2025-01-26 15:08:06.506 | INFO     | __main__:main:60 - Hello, Denise! Welcome to Python programming.
+2025-01-26 15:08:10.869 | INFO     | __main__:main:60 - Hola, Denise! Bienvenido a la programación en Python.
+2025-01-26 15:08:15.458 | INFO     | __main__:main:60 - 你好, Denise! 欢迎学习Python编程.
+2025-01-26 15:08:17.921 | INFO     | __main__:main:60 - Bonjour, Denise! Bienvenue à la programmation Python.
+2025-01-26 15:08:22.515 | INFO     | __main__:main:60 - Hallo, Denise! Willkommen bei der Python-Programmierung.
+2025-01-26 15:08:26.960 | INFO     | __main__:main:63 - Exiting main function.
+2025-01-26 15:08:26.961 | INFO     | __main__:<module>:72 - HELLO - Execution complete.
+2025-01-26 15:13:09.106 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-01-26 15:13:09.107 | INFO     | __main__:<module>:79 - HELLO - Ready for work.
+2025-01-26 15:13:09.107 | INFO     | __main__:main:44 - Starting main function.
+2025-01-26 15:13:17.258 | INFO     | __main__:main:68 - Hello, Dr. Case! Welcome to Python programming.
+2025-01-26 15:13:21.586 | INFO     | __main__:main:68 - Hola, Dr. Case! Bienvenido a la programación en Python.
+2025-01-26 15:13:26.430 | INFO     | __main__:main:68 - 你好, Dr. Case! 欢迎学习Python编程.
+2025-01-26 15:13:29.160 | INFO     | __main__:main:68 - Bonjour, Dr. Case! Bienvenue à la programmation Python.
+2025-01-26 15:13:33.996 | INFO     | __main__:main:68 - Hallo, Dr. Case! Willkommen bei der Python-Programmierung.
+2025-01-26 15:13:38.729 | INFO     | __main__:main:68 - హలో, Dr. Case! Python ప్రోగ్రామింగ్‌లోకి స్వాగతం.
+2025-01-26 15:13:41.453 | INFO     | __main__:main:68 - Hei, Dr. Case! Velkommen til Python-programmering.
+2025-01-26 15:13:45.845 | INFO     | __main__:main:72 - Exiting main function.
+2025-01-26 15:13:45.846 | INFO     | __main__:<module>:81 - HELLO - Execution complete.
+2025-01-26 16:51:55.445 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-01-26 16:51:55.445 | INFO     | __main__:<module>:79 - HELLO - Ready for work.
+2025-01-26 16:51:55.446 | INFO     | __main__:main:44 - Starting main function.
+2025-01-26 16:52:00.921 | INFO     | __main__:main:68 - Hello, Dr. Case! Welcome to Python programming.
+2025-01-26 16:52:05.233 | INFO     | __main__:main:68 - Hola, Dr. Case! Bienvenido a la programación en Python.
+2025-01-26 16:52:10.073 | INFO     | __main__:main:68 - 你好, Dr. Case! 欢迎学习Python编程.
+2025-01-26 16:52:12.789 | INFO     | __main__:main:68 - Bonjour, Dr. Case! Bienvenue à la programmation Python.
+2025-01-26 16:52:17.626 | INFO     | __main__:main:68 - Hallo, Dr. Case! Willkommen bei der Python-Programmierung.
+2025-01-26 16:52:22.346 | INFO     | __main__:main:68 - హలో, Dr. Case! Python ప్రోగ్రామింగ్‌లోకి స్వాగతం.
+2025-01-26 16:52:25.055 | INFO     | __main__:main:68 - Hei, Dr. Case! Velkommen til Python-programmering.
+2025-01-26 16:52:29.443 | INFO     | __main__:main:72 - Exiting main function.
+2025-01-26 16:52:29.444 | INFO     | __main__:<module>:81 - HELLO - Execution complete.
+2025-01-26 16:52:33.197 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-01-26 16:52:33.197 | INFO     | __main__:<module>:79 - HELLO - Ready for work.
+2025-01-26 16:52:33.198 | INFO     | __main__:main:44 - Starting main function.
+2025-01-26 16:52:36.586 | INFO     | __main__:main:68 - Hello, Denise! Welcome to Python programming.
+2025-01-26 16:52:36.586 | INFO     | __main__:main:68 - Hola, Denise! Bienvenido a la programación en Python.
+2025-01-26 16:52:36.587 | INFO     | __main__:main:68 - 你好, Denise! 欢迎学习Python编程.
+2025-01-26 16:52:36.587 | INFO     | __main__:main:68 - Bonjour, Denise! Bienvenue à la programmation Python.
+2025-01-26 16:52:36.587 | INFO     | __main__:main:68 - Hallo, Denise! Willkommen bei der Python-Programmierung.
+2025-01-26 16:52:36.587 | INFO     | __main__:main:68 - హలో, Denise! Python ప్రోగ్రామింగ్‌లోకి స్వాగతం.
+2025-01-26 16:52:36.587 | INFO     | __main__:main:68 - Hei, Denise! Velkommen til Python-programmering.
+2025-01-26 16:52:36.587 | INFO     | __main__:main:72 - Exiting main function.
+2025-01-26 16:52:36.588 | INFO     | __main__:<module>:81 - HELLO - Execution complete.
+2025-01-26 16:52:51.170 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-01-26 16:52:51.171 | INFO     | __main__:<module>:52 - CHARTS - Ready for work.
+2025-01-26 16:52:51.171 | INFO     | __main__:main:26 - Starting main function.
+2025-01-26 16:52:51.176 | INFO     | __main__:main:31 - Loaded penguins dataset successfully.
+2025-01-26 16:52:51.281 | INFO     | __main__:main:39 - NOTE: Close the chart window to continue and exit the script.
+2025-01-26 16:53:04.466 | INFO     | __main__:main:41 - Exiting main function.
+2025-01-26 16:53:04.467 | INFO     | __main__:<module>:54 - CHARTS - Execution complete.
+2025-01-26 16:53:15.174 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-01-26 16:53:15.174 | INFO     | __main__:<module>:72 - STATS - Ready for work.
+2025-01-26 16:53:15.174 | INFO     | __main__:main:55 - Starting MAIN function.
+2025-01-26 16:53:15.174 | INFO     | __main__:main:58 - Scores: [3.5, 4.0, 4.8, 2.9, 3.7, 4.3, 3.8]
+2025-01-26 16:53:15.174 | INFO     | __main__:main:59 - Minimum: 2.90
+2025-01-26 16:53:15.174 | INFO     | __main__:main:60 - Maximum: 4.80
+2025-01-26 16:53:15.174 | INFO     | __main__:main:61 - Mean: 3.86
+2025-01-26 16:53:15.174 | INFO     | __main__:main:62 - Standard Deviation: 0.60
+2025-01-26 16:53:15.174 | INFO     | __main__:main:64 - Exiting MAIN function.
+2025-01-26 16:53:15.174 | INFO     | __main__:<module>:80 - STATS - Execution complete.
