@@ -1,1 +1,139 @@
-
+/home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_get_csv.py
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ /home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_get_csv.py
+2025-02-09 01:51:20.509 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-02-09 01:51:20.514 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-02-09 01:51:20.514 | INFO     | __main__:main:93 - Starting CSV fetch demonstration...
+2025-02-09 01:51:20.514 | INFO     | __main__:fetch_csv_file:52 - Fetching CSV data from https://github.com/pandas-dev/pandas/blob/main/doc/data/baseball.csv...
+2025-02-09 01:51:20.929 | INFO     | __main__:write_csv_file:76 - Writing CSV data to data/baseball.csv...
+2025-02-09 01:51:20.930 | INFO     | __main__:write_csv_file:80 - SUCCESS: CSV data written to data/baseball.csv
+2025-02-09 01:51:20.930 | INFO     | __main__:fetch_csv_file:56 - SUCCESS: CSV file fetched and saved as baseball.csv
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ /home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_process_csv.py
+2025-02-09 01:51:38.625 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-02-09 01:51:38.629 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-02-09 01:51:38.629 | INFO     | __main__:<module>:78 - Starting CSV processing...
+2025-02-09 01:51:38.629 | ERROR    | __main__:analyze_rbi_statistics:53 - Error processing CSV file: 'rbi'
+Traceback (most recent call last):
+  File "/workspaces/datafun-03-analytics/scottwal_process_csv.py", line 79, in <module>
+    process_csv_file()
+  File "/workspaces/datafun-03-analytics/scottwal_process_csv.py", line 66, in process_csv_file
+    file.write(f"Minimum: {stats['min']:.2f}\n")
+                           ~~~~~^^^^^^^
+KeyError: 'min'
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ /home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_get_text.py
+2025-02-09 01:53:41.400 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-02-09 01:53:41.405 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-02-09 01:53:41.405 | INFO     | __main__:main:93 - Starting text fetch demonstration...
+2025-02-09 01:53:41.405 | INFO     | __main__:fetch_txt_file:52 - Fetching text data from https://github.com/UCIDataScienceInitiative/PredictiveModeling_withPython/blob/master/data/baseball.txt...
+2025-02-09 01:53:41.767 | INFO     | __main__:write_txt_file:76 - Writing data to data/baseball.txt...
+2025-02-09 01:53:41.769 | INFO     | __main__:write_txt_file:80 - SUCCESS: Data written to data/baseball.txt
+2025-02-09 01:53:41.769 | INFO     | __main__:fetch_txt_file:56 - SUCCESS: Text file fetched and saved as baseball.txt
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ /home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_process_text.py
+2025-02-09 01:55:02.228 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-02-09 01:55:02.233 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-02-09 01:55:02.233 | INFO     | __main__:<module>:51 - Starting text processing...
+2025-02-09 01:55:02.237 | INFO     | __main__:process_text_file:44 - Processed text file: data/baseball.txt, Word count saved to: data_processed/text_baseball_word_count.txt
+2025-02-09 01:55:02.237 | INFO     | __main__:<module>:53 - Text processing complete.
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ /home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_get_excel.py
+2025-02-09 01:58:24.036 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-02-09 01:58:24.041 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-02-09 01:58:24.041 | INFO     | __main__:main:93 - Starting Excel fetch demonstration...
+Traceback (most recent call last):
+  File "/workspaces/datafun-03-analytics/scottwal_get_excel.py", line 101, in <module>
+    main()
+  File "/workspaces/datafun-03-analytics/scottwal_get_excel.py", line 94, in main
+    fetch_excel_file(data, "2019mlb.xlsx", excel_url)
+                     ^^^^
+NameError: name 'data' is not defined
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ /home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_get_excel.py
+2025-02-09 01:59:15.938 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-02-09 01:59:15.943 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-02-09 01:59:15.943 | INFO     | __main__:main:93 - Starting Excel fetch demonstration...
+Traceback (most recent call last):
+  File "/workspaces/datafun-03-analytics/scottwal_get_excel.py", line 101, in <module>
+    main()
+  File "/workspaces/datafun-03-analytics/scottwal_get_excel.py", line 94, in main
+    fetch_excel_file(data, "2019mlb.xlsx", excel_url)
+                     ^^^^
+NameError: name 'data' is not defined
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ /home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_get_excel.py
+2025-02-09 02:03:16.496 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-02-09 02:03:16.501 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-02-09 02:03:16.502 | INFO     | __main__:main:93 - Starting Excel fetch demonstration...
+2025-02-09 02:03:16.502 | INFO     | __main__:fetch_excel_file:52 - Fetching Excel data from https://github.com/Scott-Wal/datafun-03-analytics/tree/main/hosted/2019mlb.xlsx...
+2025-02-09 02:03:16.736 | ERROR    | __main__:fetch_excel_file:58 - HTTP error occurred: 404 Client Error: Not Found for url: https://github.com/Scott-Wal/datafun-03-analytics/tree/main/hosted/2019mlb.xlsx
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ /home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_get_excel.py
+2025-02-09 02:03:58.659 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-02-09 02:03:58.663 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-02-09 02:03:58.663 | INFO     | __main__:main:93 - Starting Excel fetch demonstration...
+2025-02-09 02:03:58.663 | INFO     | __main__:fetch_excel_file:52 - Fetching Excel data from https://github.com/Scott-Wal/datafun-03-analytics/tree/main/2019mlb.xlsx...
+2025-02-09 02:03:58.832 | ERROR    | __main__:fetch_excel_file:58 - HTTP error occurred: 404 Client Error: Not Found for url: https://github.com/Scott-Wal/datafun-03-analytics/tree/main/2019mlb.xlsx
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ /home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_get_excel.py
+2025-02-09 02:04:12.145 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-02-09 02:04:12.153 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-02-09 02:04:12.153 | INFO     | __main__:main:93 - Starting Excel fetch demonstration...
+2025-02-09 02:04:12.154 | INFO     | __main__:fetch_excel_file:52 - Fetching Excel data from https://github.com/Scott-Wal/datafun-03-analytics/tree/main...
+2025-02-09 02:04:13.560 | INFO     | __main__:write_excel_file:76 - Writing Excel data to data/feedback.xlsx...
+2025-02-09 02:04:13.561 | INFO     | __main__:write_excel_file:80 - SUCCESS: Excel data written to data/feedback.xlsx
+2025-02-09 02:04:13.561 | INFO     | __main__:fetch_excel_file:56 - SUCCESS: Excel file fetched and saved as feedback.xlsx
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ /home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_process_excel.py
+2025-02-09 02:05:45.976 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-02-09 02:05:45.980 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-02-09 02:05:45.980 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-09 02:05:45.981 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: File is not a zip file
+2025-02-09 02:05:45.981 | INFO     | __main__:process_excel_file:54 - Processed Excel file: data/feedback.xlsx, Word count saved to: data_processed/excel_feedback_github_count.txt
+2025-02-09 02:05:45.981 | INFO     | __main__:<module>:63 - Excel processing complete.
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ /home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_get_json.py
+2025-02-09 02:13:00.042 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-02-09 02:13:00.046 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-02-09 02:13:00.046 | INFO     | __main__:main:94 - Starting JSON fetch demonstration...
+2025-02-09 02:13:00.047 | INFO     | __main__:fetch_json_file:53 - Fetching JSON data from https://github.com/mlb-ranking/mlb-dashboard/blob/master/package.json...
+2025-02-09 02:13:00.361 | ERROR    | __main__:fetch_json_file:61 - Request error occurred: Expecting value: line 7 column 1 (char 6)
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ /home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_get_json.py
+2025-02-09 02:18:39.649 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-02-09 02:18:39.654 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-02-09 02:18:39.654 | INFO     | __main__:main:94 - Starting JSON fetch demonstration...
+2025-02-09 02:18:39.654 | INFO     | __main__:fetch_json_file:53 - Fetching JSON data from https://github.com/Scott-Wal/datafun-03-analytics/tree/main...
+2025-02-09 02:18:40.031 | ERROR    | __main__:fetch_json_file:61 - Request error occurred: Expecting value: line 8 column 1 (char 7)
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ /home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_get_json.py
+2025-02-09 02:19:13.898 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-02-09 02:19:13.903 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-02-09 02:19:13.903 | INFO     | __main__:main:94 - Starting JSON fetch demonstration...
+2025-02-09 02:19:13.903 | INFO     | __main__:fetch_json_file:53 - Fetching JSON data from https://github.com/mikeygman11/Baseball-Statistics/blob/master/2019mlb.xlsx...
+2025-02-09 02:19:14.217 | ERROR    | __main__:fetch_json_file:61 - Request error occurred: Expecting value: line 7 column 1 (char 6)
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ /home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_get_json.py
+  File "/workspaces/datafun-03-analytics/scottwal_get_json.py", line 35
+    Fetch JSON data from the given URL and write it to a file.
+IndentationError: unexpected indent
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ /home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_get_json.py
+2025-02-09 02:20:16.902 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-02-09 02:20:16.906 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-02-09 02:20:16.907 | INFO     | __main__:main:94 - Starting JSON fetch demonstration...
+2025-02-09 02:20:16.907 | INFO     | __main__:fetch_json_file:53 - Fetching JSON data from https://github.com/mikeygman11/Baseball-Statistics/blob/master/2019mlb.xlsx...
+2025-02-09 02:20:17.126 | ERROR    | __main__:fetch_json_file:61 - Request error occurred: Expecting value: line 7 column 1 (char 6)
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ /home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_process_csv.py
+2025-02-09 02:22:12.955 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-02-09 02:22:12.964 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-02-09 02:22:12.965 | INFO     | __main__:<module>:78 - Starting CSV processing...
+2025-02-09 02:22:12.965 | ERROR    | __main__:analyze_rbi_statistics:53 - Error processing CSV file: 'rbi'
+Traceback (most recent call last):
+  File "/workspaces/datafun-03-analytics/scottwal_process_csv.py", line 79, in <module>
+    process_csv_file()
+  File "/workspaces/datafun-03-analytics/scottwal_process_csv.py", line 66, in process_csv_file
+    file.write(f"Minimum: {stats['min']:.2f}\n")
+                           ~~~~~^^^^^^^
+KeyError: 'min'
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ /home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_process_excel.py
+2025-02-09 02:24:04.927 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-02-09 02:24:04.931 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-02-09 02:24:04.931 | INFO     | __main__:<module>:61 - Starting Excel processing...
+2025-02-09 02:24:04.931 | ERROR    | __main__:count_word_in_column:41 - Error reading Excel file: File is not a zip file
+2025-02-09 02:24:04.932 | INFO     | __main__:process_excel_file:54 - Processed Excel file: data/feedback.xlsx, Word count saved to: data_processed/excel_feedback_github_count.txt
+2025-02-09 02:24:04.932 | INFO     | __main__:<module>:63 - Excel processing complete.
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ /home/codespace/.python/current/bin/python3 /workspaces/datafun-03-analytics/scottwal_process_json.py
+2025-02-09 02:26:11.900 | INFO     | utils_logger:<module>:34 - Log folder created at: logs
+2025-02-09 02:26:11.904 | INFO     | utils_logger:<module>:41 - Logging to file: logs/project_log.log
+2025-02-09 02:26:11.905 | INFO     | __main__:<module>:84 - Starting JSON processing...
+2025-02-09 02:26:11.905 | ERROR    | __main__:count_astronauts_by_craft:61 - Error reading or processing JSON file: [Errno 2] No such file or directory: 'edata/astros.json'
+2025-02-09 02:26:11.905 | INFO     | __main__:process_json_file:77 - Processed JSON file: edata/astros.json, Results saved to: data_processed/json_astronauts_by_craft.txt
+2025-02-09 02:26:11.905 | INFO     | __main__:<module>:86 - JSON processing complete.
+@Scott-Wal ➜ /workspaces/datafun-03-analytics (main) $ 
